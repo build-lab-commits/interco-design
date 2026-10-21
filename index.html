@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Interco - Accueil</title>
+  <link href="bootstrap.css" rel="stylesheet">
+  <style>
+    body { background: #F7F4EF; color: #211E1A; }
+    h1, h2, h3, .logo { font-family: Georgia, serif; }
+    .logo, .logo:hover { color: #A6813D; font-size: 26px; }
+    .navbar-nav .nav-link.active, .navbar-nav .nav-link:hover { color: #A6813D; }
+    .hero { background: url(image3.jpg) center / cover; height: 500px; }
+    .btn-gold { background: #A6813D; color: #fff; border-radius: 0; }
+    .btn-gold:hover { background: #7C5F2B; color: #fff; }
+    .service-card { border: 0; border-top: 3px solid #A6813D; border-radius: 0; }
+  </style>
+</head>
+<body>
+
+  <nav class="navbar navbar-expand-md bg-white border-bottom">
+    <div class="container">
+      <a class="navbar-brand logo" href="index.html">interco</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#menu" aria-controls="menu" aria-expanded="false" aria-label="Menu">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse justify-content-end" id="menu">
+        <ul class="navbar-nav">
+          <li class="nav-item"><a class="nav-link active" href="index.html">Accueil</a></li>
+          <li class="nav-item"><a class="nav-link" href="apropos.html">À propos</a></li>
+          <li class="nav-item"><a class="nav-link" href="portfolio.html">Portfolio</a></li>
+          <li class="nav-item"><a class="nav-link" href="contact.html">Contact</a></li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <section class="hero d-flex align-items-end">
+    <div class="container pb-5 text-white">
+      <h1 class="display-5 col-md-6 px-0">Transformer les espaces en art de vivre</h1>
+      <p class="my-3">Interco conçoit des intérieurs sur mesure pour villas et maisons d'exception.</p>
+      <a href="portfolio.html" class="btn btn-gold">Découvrir nos projets</a>
+    </div>
+  </section>
+
+  <section class="py-5">
+    <div class="container">
+      <h2>Un regard singulier sur l'habitat de luxe</h2>
+      <div class="row g-4 mt-1">
+        <div class="col-md-4">
+          <div class="card h-100 service-card">
+            <div class="card-body p-4">
+              <h3 class="h5 card-title">Conception 3D</h3>
+              <p class="card-text">Visualisation réaliste de chaque espace avant les travaux.</p>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4">
+          <div class="card h-100 service-card">
+            <div class="card-body p-4">
+              <h3 class="h5 card-title">Aménagement</h3>
+              <p class="card-text">Organisation des volumes et de la circulation.</p>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4">
+          <div class="card h-100 service-card">
+            <div class="card-body p-4">
+              <h3 class="h5 card-title">Décoration</h3>
+              <p class="card-text">Choix des matières, du mobilier et de l'éclairage.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <footer class="bg-dark text-light text-center py-3">
+    <p class="mb-0">© 2026 Interco. Tous droits réservés.</p>
+  </footer>
+
+  <script src="bootstrap.bundle.min.js"></script>
+</body>
+</html>
